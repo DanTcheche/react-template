@@ -7,7 +7,7 @@ import type {
 import type { IconProps } from "@iconify/react";
 import { Icon, loadIcons } from "@iconify/react";
 import { tv } from "tailwind-variants";
-import { SIZE } from "@/types/styles";
+import { Size, SIZE, Styled } from "@/types/styles";
 
 const LUCIDE_PREFIX = "lucide:";
 

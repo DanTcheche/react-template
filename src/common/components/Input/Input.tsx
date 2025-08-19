@@ -2,7 +2,7 @@ import { type ComponentProps, type ReactNode } from "react";
 import { tv } from "tailwind-variants";
 
 import { IconWrapper } from "@/common/components/Icons";
-import { SIZE } from "@/types/styles";
+import { Size, SIZE, Styled } from "@/types/styles";
 
 const inputVariants = tv({
   slots: {
@@ -50,7 +50,7 @@ type InputProps = {
 } & Omit<ComponentProps<"input">, "size"> &
   Styled;
 
-const Input = ({
+export const Input = ({
   className,
   containerClassName,
   left,
@@ -86,5 +86,3 @@ const Input = ({
     </div>
   );
 };
-
-export { Input };

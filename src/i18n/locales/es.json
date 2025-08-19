@@ -1,0 +1,24 @@
+{
+  "form": {
+    "email": "Email",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "confirmPassword": "Confirmar contraseña",
+    "passwordMustInclude": "La contraseña debe incluir",
+    "errors": {
+      "required": "{field} es requerido.",
+      "invalidField": "Por favor ingresar un/a {field} válido/a.",
+      "minLength": "{field} debe contener al menos {length} caracteres.",
+      "containsNumber": "{field} debe contener al menos un número.",
+      "passwordMismatch": "Las contraseñas no coinciden.",
+      "containsLetter": "{field} debe contener al menos una letra."
+    }
+  },
+  "login": {
+    "forgotYourPassword": "¿Olvidaste tu contraseña?",
+    "login": "Iniciar Sesión",
+    "noAccount": "¿No tienes una cuenta? <Link>Regístrate</Link>",
+    "error": "No se pudo iniciar sesión",
+    "success": "Inició sesión con éxito"
+  }
+}
